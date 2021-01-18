@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Andrey Rybachenko](https://up.htmlacademy.ru/htmlcss/30/user/1432503).
-* Наставник: `Неизвестно`.
+* Наставник:[Михаил Колотович](https://htmlacademy.ru/profile/id225353).
 
 ---
 
