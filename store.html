@@ -30,7 +30,7 @@
       <form action="#">
         
         <fiedset>
-          <span>Стоимость:</span>
+          <legend>Стоимость:</legend>
           <input type="range" min="0" max="15000">
           <label for="down-border">от</label>
           <input type="text" id="down-border" placeholder="0">
@@ -39,7 +39,7 @@
         </fiedset>
 
         <fieldset>
-          <span>Сетка:</span>
+          <legend>Сетка:</legend>
           <input type="radio" id="adaptive-layout" name="layout-type" checked>
           <label for="adaptive-layout">Адаптивная</label>
           <input type="radio" id="fixed-layout" name="layout-type">
@@ -49,22 +49,22 @@
         </fieldset>
 
         <fieldset>
-          <span>Особенности</span>
+          <legend>Особенности</legend>
           <input type="checkbox" name="" id="slider" checked>
           <label for="slider">Слайдер</label>
 
           <input type="checkbox" name="" id="benefits">
           <label for="benefits">Блок преимуществ</label>
 
-          <input type="checkbox" id="news" name="" checked>
+          <input type="checkbox" name="" id="news" checked>
           <label for="news">Новости</label>
 
-          <input type="сheckbox" name="" id="gallery">
+          <input type="checkbox" name="" id="gallery" checked>
           <label for="gallery">Галерея</label>
 
           <input type="checkbox" name="" id="basket">
           <label for="basket">Корзина</label>
-
+          
           <button type="submit">Показать</button>
         </fieldset>
       </form>
