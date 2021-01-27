@@ -8,8 +8,8 @@
 <body>
   <header>
     <nav>
-      <a href="#">
-        <img src="https://via.placeholder.com/150x65" alt="">
+      <a href="index.html">
+        <img src="https://via.placeholder.com/160x50" alt="">
       </a>
       <ul>
         <li><a href="#">Студия</a></li>
@@ -26,44 +26,48 @@
 
     <section>
       <h2>Фильтр поиска</h2>
-      <form action="#">
-        <span>Стоимость:</span>
-        <input type="range" min="0" max="15000">
-        <label for="down-border">от</label>
-        <input type="text" id="down-border" placeholder="0">
-        <label for="upper-border">до</label>
-        <input type="text" id="upper-border" placeholder="15000">
-      </form>
 
       <form action="#">
-        <span>Сетка:</span>
-        <input type="radio" id="adaptive-layout" checked>
-        <label for="adaptive-layout">Адаптивная</label>
-        <input type="radio" id="fixed-layout">
-        <label for="fixed-layout">Фиксированная</label>
-        <input type="radio" id="rubber-layout">
-        <label for="rubber-layout">Резиновая</label>
+        
+        <fiedset>
+          <span>Стоимость:</span>
+          <input type="range" min="0" max="15000">
+          <label for="down-border">от</label>
+          <input type="text" id="down-border" placeholder="0">
+          <label for="upper-border">до</label>
+          <input type="text" id="upper-border" placeholder="15000">
+        </fiedset>
+
+        <fieldset>
+          <span>Сетка:</span>
+          <input type="radio" id="adaptive-layout" name="layout-type" checked>
+          <label for="adaptive-layout">Адаптивная</label>
+          <input type="radio" id="fixed-layout" name="layout-type">
+          <label for="fixed-layout">Фиксированная</label>
+          <input type="radio" id="rubber-layout" name="layout-type">
+          <label for="rubber-layout">Резиновая</label>
+        </fieldset>
+
+        <fieldset>
+          <span>Особенности</span>
+          <input type="checkbox" name="" id="slider" checked>
+          <label for="slider">Слайдер</label>
+
+          <input type="checkbox" name="" id="benefits">
+          <label for="benefits">Блок преимуществ</label>
+
+          <input type="checkbox" id="news" name="" checked>
+          <label for="news">Новости</label>
+
+          <input type="сheckbox" name="" id="gallery">
+          <label for="gallery">Галерея</label>
+
+          <input type="checkbox" name="" id="basket">
+          <label for="basket">Корзина</label>
+
+          <button type="submit">Показать</button>
+        </fieldset>
       </form>
-
-      <form action="#">
-        <span>Особенности</span>
-        <input type="checkbox" name="" id="slider" checked>
-        <label for="slider">Слайдер</label>
-
-        <input type="checkbox" name="" id="benefits">
-        <label for="benefits">Блок преимуществ</label>
-
-        <input type="checkbox" name="" id="news" checked>
-        <label for="news">Новости</label>
-
-        <input type="сheckbox" name="" id="gallery">
-        <label for="gallery">Галерея</label>
-
-        <input type="checkbox" name="" id="basket">
-        <label for="basket">Корзина</label>
-      </form>
-
-      <button type="button">Показать</button>
     </section>
 
     <section>
@@ -74,27 +78,81 @@
         <li><a href="#">по типу</a></li>
         <li><a href="#">по названию</a></li>
       </ul>
+      <a href="#" title="По возрастанию">
+        <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5.5 10L0 0H11" fill="#231F20"/>
+          </svg>          
+      </a>
+      <a href="#" title="По убыванию">
+        <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.2">
+          <path d="M5.5 0L0 10H11L5.5 0Z" fill="#A6A6A6"/>
+          </g>
+          </svg>
+      </a>
 
-      <div>
+     <ul>
+       <li>
+        <img src="https://via.placeholder.com/350x570" alt="">
         <div>
-          <img src="https://via.placeholder.com/350x570" alt="">
+          <a href="#">
+            <h3>SEDONA</h3>
+          </a>
+          <p>Информационный сайт для туристов</p>
+          <a href="#">9900</a>
         </div>
+       </li>
+       <li>
+        <img src="https://via.placeholder.com/350x570" alt="">
         <div>
-          <img src="https://via.placeholder.com/350x570" alt="">
+          <a href="#">
+            <h3>PINK</h3>
+          </a>
+          <p></p>
+          <a href="#">9900</a>
         </div>
+       </li>
+       <li>
+        <img src="https://via.placeholder.com/350x570" alt="">
         <div>
-          <img src="https://via.placeholder.com/350x570" alt="">
+          <a href="#">
+            <h3>BARBERSHOP</h3>
+          </a>
+          <p></p>
+          <a href="#">9900</a>
         </div>
+       </li>
+       <li>
+        <img src="https://via.placeholder.com/350x570" alt="">
         <div>
-          <img src="https://via.placeholder.com/350x570" alt="">
+          <a href="#">
+            <h3>MISHKA</h3>
+          </a>
+          <p></p>
+          <a href="#">9900</a>
         </div>
+       </li>
+       <li>
+         <img src="https://via.placeholder.com/350x570" alt="">
+         <div>
+          <a href="#">
+            <h3>A+</h3>
+          </a>
+          <p></p>
+          <a href="#">9900</a>
+         </div>
+      </li>
+       <li>
+        <img src="https://via.placeholder.com/350x570" alt="">
         <div>
-          <img src="https://via.placeholder.com/350x570" alt="">
+          <a href="#">
+            <h3>КВАСТ</h3>
+          </a>
+          <p></p>
+          <a href="#">9900</a>
         </div>
-        <div>
-          <img src="https://via.placeholder.com/350x570" alt="">
-        </div>
-      </div>
+       </li>
+    </ul>
     </section>
 
     <div>
@@ -108,6 +166,7 @@
   <footer>
     <section>
       <img src="https://via.placeholder.com/1440x416" alt="">
+      <img src="https://via.placeholder.com/231x190" alt="">
       <div>
         <p>NERDS DESIGN STUDIO</p>
         <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
