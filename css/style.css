@@ -1,0 +1,384 @@
+/*Кастомные*/
+
+:root {
+  --basic-black: #000000;
+  --basic-light-black: #283136;
+  --basic-white: #ffffff;
+  --basic-light-pink: #fb565a;
+  --basic-pink: #e74246;
+  --basic-dark-pink: #d7373b;
+  --basic-light-green: #00ca74;
+  --basic-green: #00bc6c;
+  --basic-dark-green: #00aa62;
+  --basic-light-yellow: #efc849;
+  --basic-yellow: #EAB534;
+  --basic-dark-yellow: #E5A722;
+  --basic-light-grey: #eeeeee;
+  --basic-grey: #e1e1e1;
+  --basic-dark-grey: #666666;
+  --basic-popup-grey: #d7dcde;
+  --basic-filter-grey: #4d4d4d;
+  
+  
+  --styleguide-border-grey: #B4B9BB;
+  --styleguide-inputtext-grey: #444444;
+  --styleguide-hover-grey: #dfdfdf;
+  --styleguide-focus-grey: #d5d5d5;
+
+}
+
+/* Global */
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  color: var(--basic-light-black);
+
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.hidden {
+  display: none;
+}
+
+/* Main navigation */
+
+.main-header-logo:hover {
+  opacity: 0.7;
+}
+
+.main-header-logo:focus {
+  opacity: 0.3;
+}
+
+.site-navigation {
+  font-size: 16px;
+  line-height: 30px;  
+  font-weight: 500;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover {
+  color: var(--basic-light-pink);
+}
+
+.site-navigation a:focus {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.cart-link {
+  font-size: 16px;
+  line-height: 30px;  
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.cart-link:hover {
+  color: var(--basic-light-pink);
+}
+
+.cart-link:focus {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+
+/* Promo section */
+
+.promo-slogan {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  color: var(--basic-black);
+}
+
+.promo-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.more-info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-light-pink);
+  padding: 15px 54px;
+  border-radius: 3px;
+}
+
+.more-info:hover {
+  background-color: var(--basic-pink);
+}
+
+.more-info:focus {
+  background-color: var(--basic-dark-pink);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+
+/* Service section */
+
+.services-section {
+  margin-top: 50px;
+}
+
+.service-name {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+.service-promo-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--basic-light-black);
+}
+
+.order-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  padding: 15px 40px;
+  border-radius: 3px;
+}
+
+.pink-button {
+  background-color: var(--basic-light-pink);
+}
+
+.pink-button:hover{
+  background-color: var(--basic-pink);
+}
+
+.pink-button:focus {
+  background-color: var(--basic-dark-pink);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+
+.green-button {
+  background-color: var(--basic-light-green);
+}
+
+.green-button:hover {
+  background-color: var(--basic-green);
+}
+
+.green-button:focus {
+  background-color: var(--basic-dark-green);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+
+.yellow-button {
+  background-color: var(--basic-light-yellow);
+}
+
+.yellow-button:hover {
+  background-color: var(--basic-yellow);
+}
+
+.yellow-button:focus {
+  background-color: var(--basic-dark-yellow);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+} 
+
+/* Advantages section */
+
+.description-block-text1 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  color: var(--basic-black);
+}
+
+.description-block-text2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--basic-light-black);
+}
+
+.project-type-list-pretext {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--basic-light-black);
+}
+
+.project-type-list {
+  list-style: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.advantages-list-pretext {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.advantages-list {
+  list-style: none;
+}
+
+.advantage-percent {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.advantages-item {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+
+
+
+
+
+/* Page footer */
+
+.contacts-container {
+  background-color: var(--basic-white)
+}
+
+.studio-name {
+  font-weight: bold;
+  font-size: 18px;  
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.adress-phone {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--basic-dark-grey);
+}
+
+.adress-phone a {
+  color: var(--basic-dark-grey);
+}
+
+.text-us-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-light-pink);
+  padding: 16px 44px;
+  border-radius: 3px;
+}
+
+.socials-list {
+  list-style: none;
+}
+
+.socials-item a {
+  display: block;
+  width: 81px;
+  height: 81px;
+  background-color: var(--basic-grey);
+  border-radius: 50%;
+  text-align: center;
+}
+
+.socials-item a img {
+  vertical-align: middle;
+}
+
+
+/* Store.html */
+
+.page-heading {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  color: var(--basic-black);
+}
+
+.price,
+.layout,
+.features {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.price-label {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--basic-light-black);
+  text-transform: uppercase;
+}
+
+.layout-label,
+.features-label {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color:var(--basic-light-black);
+}
+
+.show-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;  
+  text-transform: uppercase;
+  color: var(--basic-black);
+  background-color: var(--basic-light-grey);
+  border: none;
+  border-radius: 3px;
+  padding: 16px 88px;
+}
+
+.show-button:hover {
+  background-color: var(--styleguide-hover-grey);
+}
+
+.show-button:focus {
+  background-color: var(--styleguide-focus-grey);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
